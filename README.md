@@ -8,6 +8,8 @@ Hako (箱, "box") is a small virtualization app for Macs with Apple silicon, bui
 
 This repository only publishes signed builds (`Hako-<version>.dmg`) and the update feed (`appcast.xml`). It is a personal project; the source code is not public.
 
+<img src="images/vm-running.jpg" alt="Hako running a macOS 26 VM on a real Mac" width="880">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/library-dark.png">
   <img src="images/library.png" alt="Hako library window with macOS and Linux VMs" width="880">

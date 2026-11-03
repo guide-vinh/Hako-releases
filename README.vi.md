@@ -8,6 +8,8 @@ Hako (箱 — "cái hộp") là app ảo hóa gọn nhẹ cho Mac Apple Silicon,
 
 Repo này chỉ đăng bản build đã ký (`Hako-<version>.dmg`) và feed cập nhật (`appcast.xml`). Đây là dự án cá nhân; mã nguồn không công khai.
 
+<img src="images/vm-running.jpg" alt="Hako đang chạy VM macOS 26 trên Mac thật" width="880">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/library-dark.png">
   <img src="images/library.png" alt="Cửa sổ thư viện Hako với VM macOS và Linux" width="880">

@@ -17,10 +17,10 @@ This repository only publishes signed builds (`Hako-<version>.dmg`) and the upda
 
 | | | |
 | --- | --- | --- |
-| <img src="images/new-vm.png" alt="New VM wizard, macOS" width="260"> | <img src="images/new-vm-linux.png" alt="New VM wizard, Linux" width="260"> | <img src="images/edit-settings.png" alt="Edit Settings" width="260"> |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="images/new-vm-dark.png"><img src="images/new-vm.png" alt="New VM wizard, macOS" width="260"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="images/new-vm-linux-dark.png"><img src="images/new-vm-linux.png" alt="New VM wizard, Linux" width="260"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="images/edit-settings-dark.png"><img src="images/edit-settings.png" alt="Edit Settings" width="260"></picture> |
 | New VM (macOS) | New VM (Linux) | Edit Settings |
 
-<img src="images/import.png" alt="Import a VM" width="440">
+<picture><source media="(prefers-color-scheme: dark)" srcset="images/import-dark.png"><img src="images/import.png" alt="Import a VM" width="440"></picture>
 
 ## What's in 0.1.0
 

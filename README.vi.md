@@ -17,10 +17,10 @@ Repo này chỉ đăng bản build đã ký (`Hako-<version>.dmg`) và feed cậ
 
 | | | |
 | --- | --- | --- |
-| <img src="images/new-vm.png" alt="Wizard tạo VM macOS" width="260"> | <img src="images/new-vm-linux.png" alt="Wizard tạo VM Linux" width="260"> | <img src="images/edit-settings.png" alt="Edit Settings" width="260"> |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="images/new-vm-dark.png"><img src="images/new-vm.png" alt="Wizard tạo VM macOS" width="260"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="images/new-vm-linux-dark.png"><img src="images/new-vm-linux.png" alt="Wizard tạo VM Linux" width="260"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="images/edit-settings-dark.png"><img src="images/edit-settings.png" alt="Edit Settings" width="260"></picture> |
 | Tạo VM (macOS) | Tạo VM (Linux) | Sửa cấu hình (Edit Settings) |
 
-<img src="images/import.png" alt="Import VM" width="440">
+<picture><source media="(prefers-color-scheme: dark)" srcset="images/import-dark.png"><img src="images/import.png" alt="Import VM" width="440"></picture>
 
 ## Có gì trong 0.1.0
 

@@ -1,5 +1,9 @@
 # Hako releases
 
+English | [Tiếng Việt](README.vi.md)
+
+[![Download Hako](https://img.shields.io/github/v/release/guide-vinh/Hako-releases?label=Download&logo=apple&style=for-the-badge&color=0a84ff)](https://github.com/guide-vinh/Hako-releases/releases/latest)
+
 Hako (箱, "box") is a small virtualization app for Macs with Apple silicon, built on Apple's Virtualization framework. Each virtual machine (VM) is one `.hako` folder. Hako runs macOS 14 or later guests (for example to keep older Xcode versions around) and Linux ARM64 guests, from the `Hako.app` window or the `hako` command-line tool.
 
 This repository only publishes signed builds (`Hako-<version>.dmg`) and the update feed (`appcast.xml`). It is a personal project; the source code is not public.
@@ -29,7 +33,7 @@ Full list of changes: the release notes of each [release](https://github.com/gui
 
 ## Download and install
 
-1. Download `Hako-0.1.0.dmg` from the [latest release](https://github.com/guide-vinh/Hako-releases/releases/latest) (direct link: [Hako-0.1.0.dmg](https://github.com/guide-vinh/Hako-releases/releases/latest/download/Hako-0.1.0.dmg)).
+1. Click **Download** above, or open the [latest release](https://github.com/guide-vinh/Hako-releases/releases/latest), and download `Hako-<version>.dmg` under **Assets**.
 2. Open the `.dmg` and drag `Hako.app` to `Applications`.
 3. Open Hako from Applications.
 
@@ -39,7 +43,7 @@ Builds are signed with a Developer ID certificate and notarized by Apple, so Gat
 
 ```sh
 # Compare with the SHA-256 in the release notes
-shasum -a 256 ~/Downloads/Hako-0.1.0.dmg
+shasum -a 256 ~/Downloads/Hako-*.dmg
 
 # Gatekeeper check: expect "accepted" and "source=Notarized Developer ID"
 spctl -a -vv /Applications/Hako.app
@@ -139,4 +143,4 @@ The Hako builds in this repository are distributed under the MIT License (see [L
 
 ## Tiếng Việt
 
-Hako là app ảo hóa nhỏ cho Mac Apple Silicon (guest macOS 14+ và Linux ARM64). Repo này chỉ chứa bản build đã ký Developer ID và notarize (`Hako-0.1.0.dmg`) và feed cập nhật `appcast.xml`; mã nguồn không công khai. Tải ở [bản mới nhất](https://github.com/guide-vinh/Hako-releases/releases/latest), kéo `Hako.app` vào Applications. App tự kiểm cập nhật qua Sparkle (luôn hỏi trước khi cài) và không thu thập dữ liệu. Báo lỗi ở Issues; báo lỗ hổng bảo mật qua tab Security (private vulnerability reporting). Dự án cá nhân, không bảo hành.
+Bản tiếng Việt đầy đủ: [README.vi.md](README.vi.md).

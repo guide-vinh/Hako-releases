@@ -8,6 +8,18 @@ Hako (箱, "box") is a small virtualization app for Macs with Apple silicon, bui
 
 This repository only publishes signed builds (`Hako-<version>.dmg`) and the update feed (`appcast.xml`). It is a personal project; the source code is not public.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/library-dark.png">
+  <img src="images/library.png" alt="Hako library window with macOS and Linux VMs" width="880">
+</picture>
+
+| | | |
+| --- | --- | --- |
+| <img src="images/new-vm.png" alt="New VM wizard, macOS" width="260"> | <img src="images/new-vm-linux.png" alt="New VM wizard, Linux" width="260"> | <img src="images/edit-settings.png" alt="Edit Settings" width="260"> |
+| New VM (macOS) | New VM (Linux) | Edit Settings |
+
+<img src="images/import.png" alt="Import a VM" width="440">
+
 ## What's in 0.1.0
 
 - **macOS guests (14 or later):** create a VM from the latest macOS for your Mac (downloaded by Hako), from a link to a restore image on Apple's servers, or from a local IPSW. The wizard can show which macOS versions run the Xcode version you need.

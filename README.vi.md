@@ -8,6 +8,18 @@ Hako (箱 — "cái hộp") là app ảo hóa gọn nhẹ cho Mac Apple Silicon,
 
 Repo này chỉ đăng bản build đã ký (`Hako-<version>.dmg`) và feed cập nhật (`appcast.xml`). Đây là dự án cá nhân; mã nguồn không công khai.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/library-dark.png">
+  <img src="images/library.png" alt="Cửa sổ thư viện Hako với VM macOS và Linux" width="880">
+</picture>
+
+| | | |
+| --- | --- | --- |
+| <img src="images/new-vm.png" alt="Wizard tạo VM macOS" width="260"> | <img src="images/new-vm-linux.png" alt="Wizard tạo VM Linux" width="260"> | <img src="images/edit-settings.png" alt="Edit Settings" width="260"> |
+| Tạo VM (macOS) | Tạo VM (Linux) | Sửa cấu hình (Edit Settings) |
+
+<img src="images/import.png" alt="Import VM" width="440">
+
 ## Có gì trong 0.1.0
 
 - **Guest macOS (14 trở lên):** tạo VM từ bản macOS mới nhất cho Mac của bạn (Hako tải về), từ link restore image trên máy chủ Apple, hoặc từ file IPSW có sẵn. Wizard cho biết những bản macOS nào chạy được phiên bản Xcode bạn cần.
